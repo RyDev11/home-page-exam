@@ -1,0 +1,151 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+.navbar.navbar-expand-lg {
+    background-color: #3D2C8D !important;
+}
+
+.navbar-nav .nav-link,
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8d568 !important; /* Optional: Change hover color */
+}
+
+/*Landing*/
+/* Landing Section */
+#landing {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.15);
+    background-image: url(./images/cat-bg1.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; /* Ensure the background covers the whole section */
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Text Styling */
+#landing h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #3D2C8D; /* Ensures contrast */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+#landing p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    color: #3D2C8D;
+    margin: 1rem auto;
+}
+
+/* Button Styling */
+#landing .btn-warning {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+#landing .btn-warning:hover {
+    background-color: #d39e00;
+    transform: scale(1.05);
+}
+
+/* Why Choose Us Section Styling */
+#carouselExampleIndicators {
+    max-width: 100%; /* Ensures the carousel scales properly */
+    border-radius: 12px; /* Adds soft edges for a sleek look */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item img {
+    height: 350px; /* Keeps images consistent */
+    object-fit: cover; /* Ensures images fit properly */
+    border-radius: 12px;
+}
+
+/* Text Content */
+h2 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.lead {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Spacing */
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.px-5 {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+
+/* Featured Products Styling */
+.card {
+    border: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px; 
+    overflow: hidden; 
+}
+
+.card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+}
+
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+.list-group-item {
+    background-color: #f8f9fa; 
+    font-weight: bold;
+    color: #ff7f50;
+    border: none;
+}
+
+/*footer*/
+.bg-dark {
+    background-color: #3D2C8D !important;
+}
