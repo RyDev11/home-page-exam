@@ -145,7 +145,8 @@ h2 {
     border: none;
 }
 
-.fw-bold.heading-1 .fw-bold.heading-1 {
+.fw-bold.heading-1, 
+.fw-bold.heading-2 {
     color: #3D2C8D !important;
 }
 
