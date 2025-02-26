@@ -145,7 +145,23 @@ h2 {
     border: none;
 }
 
+.fw-bold.heading-1 .fw-bold.heading-1 {
+    color: #3D2C8D !important;
+}
+
 /*footer*/
 .bg-dark {
     background-color: #3D2C8D !important;
+}
+
+
+.btn.btn-outline-success {
+  color: #ff7f50;
+  border-color: #ff7f50;
+
+}
+
+.btn.btn-outline-success:hover {
+  background-color: #3D2C8D;
+  color: white;
 }
