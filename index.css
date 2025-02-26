@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Urbanist", sans-serif;
+    font-family: "Poppins", serif;
 }
 
 .navbar.navbar-expand-lg {
@@ -20,9 +20,9 @@
     color: #f8d568 !important; /* Optional: Change hover color */
 }
 
-/*Landing*/
-/* Landing Section */
-#landing {
+/*hero*/
+/* hero Section */
+#hero {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.15);
     background-image: url(./images/cat-bg1.jpg);
     background-position: center; 
@@ -37,14 +37,14 @@
 }
 
 /* Text Styling */
-#landing h1 {
+#hero h1 {
     font-size: 3rem;
     font-weight: bold;
     color: #3D2C8D; /* Ensures contrast */
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-#landing p {
+#hero p {
     font-size: 1.2rem;
     max-width: 600px;
     color: #3D2C8D;
@@ -52,14 +52,14 @@
 }
 
 /* Button Styling */
-#landing .btn-warning {
+#hero .btn-warning {
     padding: 0.75rem 1.5rem;
     font-size: 1.25rem;
     border-radius: 8px;
     transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
 
-#landing .btn-warning:hover {
+#hero .btn-warning:hover {
     background-color: #d39e00;
     transform: scale(1.05);
 }
@@ -159,10 +159,18 @@ h2 {
 .btn.btn-outline-success {
   color: #ff7f50;
   border-color: #ff7f50;
-
 }
 
 .btn.btn-outline-success:hover {
   background-color: #3D2C8D;
   color: white;
+  border-color: white;
+}
+
+.card-title {
+    color: #3D2C8D !important;
+}
+
+.btn-warning {
+    color: ;
 }
